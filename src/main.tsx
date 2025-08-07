@@ -2,8 +2,8 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router";
-import Cadastro from "./screend/Cadastro";
-import Home from "./screend/Home";
+import Cadastro from "./screens/Cadastro";
+import Home from "./screens/Home";
 
 const router = createBrowserRouter([
   {

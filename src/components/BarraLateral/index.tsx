@@ -14,6 +14,7 @@ export const Sidebar = styled.aside`
 
 export const Imagem = styled.img`
   padding-top: var(--padding-l);
+  width: 70%;
 `;
 
 export const Rodape = styled.footer`

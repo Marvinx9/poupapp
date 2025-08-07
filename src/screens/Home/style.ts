@@ -2,11 +2,11 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   display: grid;
-  grid-template-columns: 280px 1fr 320px;
+  grid-template-columns: 1fr 3fr 1fr;
   grid-template-rows: auto auto auto 1fr;
   gap: var(--gap-s);
   min-width: 1260px;
-  margin: 32px 0;
+  margin: 32px 1rem;
   box-sizing: border-box;
   grid-template-areas:
     "sidebar search search"
